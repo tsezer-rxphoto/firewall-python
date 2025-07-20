@@ -7,7 +7,7 @@ readme = "README.md"
 license = "AGPL-3.0-or-later"
 include = [
     "docs/*",
-    { path = "aikido_zen/libs/*", format = ["sdist", "wheel"] }
+    "aikido_zen/libs/*"
 ]
 keywords = [
     "web application firewall",
