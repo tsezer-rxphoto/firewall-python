@@ -57,10 +57,10 @@ homepage = "https://www.aikido.dev/runtime/firewall/"
 
 [tool.poetry.dependencies]
 python = "^3.7"
-regex = "^2024.5.15"
-requests = "^2.32.3"
-packaging = "^24.1"
-wrapt = "^1.17.2"
+regex = "^2024.4.16"
+requests = "^2.31.0"
+packaging = "^24.0"
+wrapt = "^1.16.0"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.4.2"
