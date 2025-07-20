@@ -38,7 +38,7 @@ class Operations(dict):
         if blocked:
             self[operation]["attacksDetected"]["blocked"] += 1
 
-    def update(self, m, /, **kwargs):
+    def update(self, m, **kwargs):
         for operation in m.keys():
             self.ensure_operation(operation, kind=m[operation]["kind"])
 
